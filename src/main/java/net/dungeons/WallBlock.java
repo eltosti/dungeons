@@ -16,7 +16,7 @@ public class WallBlock extends Block {
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, EntityContext ctx) {
-        return VoxelShapes.cuboid(0f, 0f, -0.125f, 1f, 1.0f, 0.125f);
+        return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 1.0f, 0.125f);
     }
 
 }
