@@ -5,8 +5,8 @@ import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 
 
-public class BrickWall extends WallBlock{
-    public BrickWall() {
-        super(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.METAL).build());
+public class Jailbars extends WallBlock{
+    public Jailbars(){
+        super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.METAL).build());
     }
 }
