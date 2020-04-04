@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "dungeons:block/brickwall" }
+    "facing=north": { "model": "dungeons:block/brickwall" },
+    "facing=east": { "model": "dungeons:block/brickwall", "y": 90 },
+    "facing=south": { "model": "dungeons:block/brickwall", "y": 180 },
+    "facing=west": { "model": "dungeons:block/brickwall", "y": 270 }
   }
 }

@@ -6,6 +6,7 @@ import net.minecraft.sound.BlockSoundGroup;
 
 
 public class BrickWall extends WallBlock{
+
     public BrickWall() {
         super(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.METAL).build());
     }

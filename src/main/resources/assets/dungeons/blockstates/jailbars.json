@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "dungeons:block/jailbars" }
+    "facing=north": { "model": "dungeons:block/jailbars" },
+    "facing=east": { "model": "dungeons:block/jailbars", "y": 90 },
+    "facing=south": { "model": "dungeons:block/jailbars", "y": 180 },
+    "facing=west": { "model": "dungeons:block/jailbars", "y": 270 }
   }
 }
