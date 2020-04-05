@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dungeons:block/birchwall" },
+    "facing=east": { "model": "dungeons:block/birchwall", "y": 90 },
+    "facing=south": { "model": "dungeons:block/birchwall", "y": 180 },
+    "facing=west": { "model": "dungeons:block/birchwall", "y": 270 }
+  }
+}

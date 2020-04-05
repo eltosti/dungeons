@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dungeons:block/acasiawall" },
+    "facing=east": { "model": "dungeons:block/acasiawall", "y": 90 },
+    "facing=south": { "model": "dungeons:block/acasiawall", "y": 180 },
+    "facing=west": { "model": "dungeons:block/acasiawall", "y": 270 }
+  }
+}

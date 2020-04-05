@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dungeons:block/darkoakwall" },
+    "facing=east": { "model": "dungeons:block/darkoakwall", "y": 90 },
+    "facing=south": { "model": "dungeons:block/darkoakwall", "y": 180 },
+    "facing=west": { "model": "dungeons:block/darkoakwall", "y": 270 }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dungeons:block/sprucewall" },
+    "facing=east": { "model": "dungeons:block/sprucewall", "y": 90 },
+    "facing=south": { "model": "dungeons:block/sprucewall", "y": 180 },
+    "facing=west": { "model": "dungeons:block/sprucewall", "y": 270 }
+  }
+}
