@@ -7,9 +7,8 @@ import net.minecraft.sound.BlockSoundGroup;
 
 
 
-public class BrickWall extends WallBlock{
-
-    public BrickWall() {
+public class BrickThinWall extends ThinWallBlock {
+    public BrickThinWall() {
         super(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.METAL).build());
     }
 }

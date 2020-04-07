@@ -6,7 +6,7 @@ import net.minecraft.sound.BlockSoundGroup;
 
 
 
-public class WoodWalls extends WallBlock{
+public class WoodWalls extends ThinWallBlock {
     public WoodWalls() {
         super(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).build());
     }

@@ -6,26 +6,23 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Pair;
 import net.minecraft.util.registry.Registry;
 
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class Dungeons implements ModInitializer {
 
-
-    public static final WallBlock brickwall = new BrickWall();
-    public static final WallBlock jailbars = new Jailbars();
-    public static final WallBlock acasiawall = new WoodWalls();
-    public static final WallBlock birchwall = new WoodWalls();
-    public static final WallBlock darkoakwall = new WoodWalls();
-    public static final WallBlock oakwall = new WoodWalls();
-    public static final WallBlock sprucewall = new WoodWalls();
+    public static final ThinWallBlock brickwall = new BrickThinWall();
+    public static final ThinWallBlock jailbars = new Jailbars();
+    public static final ThinWallBlock acasiawall = new WoodWalls();
+    public static final ThinWallBlock birchwall = new WoodWalls();
+    public static final ThinWallBlock darkoakwall = new WoodWalls();
+    public static final ThinWallBlock oakwall = new WoodWalls();
+    public static final ThinWallBlock sprucewall = new WoodWalls();
 
     @Override
     public void onInitialize() {
+
         Registry.register(Registry.BLOCK, new Identifier("dungeons","brickwall"),brickwall);
         Registry.register(Registry.ITEM,new Identifier("dungeons","brickwall"), new BlockItem(brickwall, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.BLOCK,new Identifier("dungeons", "jailbars"), jailbars);

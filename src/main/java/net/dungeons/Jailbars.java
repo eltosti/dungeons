@@ -5,7 +5,7 @@ import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 
 
-public class Jailbars extends WallBlock{
+public class Jailbars extends ThinWallBlock {
     public Jailbars(){
         super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.METAL).build());
     }
