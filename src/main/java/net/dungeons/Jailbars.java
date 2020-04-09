@@ -9,4 +9,6 @@ public class Jailbars extends ThinWallBlock {
     public Jailbars(){
         super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.METAL).build());
     }
+
+
 }
